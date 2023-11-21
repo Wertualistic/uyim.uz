@@ -7,13 +7,6 @@
   box-sizing: border-box;
 }
 
-.container {
-  width: 90%;
-  max-width: 1440px;
-  margin: 0 auto;
-  background-color: #fff;
-}
-
 .honadon--main {
   display: flex;
   gap: 1.875rem;
@@ -67,4 +60,9 @@
   font-weight: 400;
   gap: 18px;
   padding: 0.7rem 1.5rem 0.75rem 0.75rem;
+}
+
+.honadon--btn a{
+    text-decoration: none;
+    color: black;
 }

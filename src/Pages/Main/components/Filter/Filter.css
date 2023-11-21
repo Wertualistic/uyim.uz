@@ -1,0 +1,15 @@
+.filter{
+    width: 100%;
+    padding: 25px 10px;
+}
+
+@media screen and (max-width: 768px) {
+    .filter{
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+
+    .filter form{
+        flex-wrap: wrap;
+    }
+}

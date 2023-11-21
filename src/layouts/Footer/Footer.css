@@ -1,0 +1,28 @@
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    border: 1px solid #E5E5E5;
+    background: #F8F8F8;
+    padding: 25px 120px;
+    margin-top: 100px;
+    gap: 30px;
+}
+
+.footer ul{
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+.footer ul li a{
+    text-decoration: none;
+    color: #555;
+    font-size: 18px;
+}
+
+@media screen and (max-width: 768px) {
+    .footer{
+        padding: 30px;
+    }
+}
