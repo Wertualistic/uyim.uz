@@ -6,6 +6,7 @@ import Honadon from './Pages/Honadon/Honadon'
 import Main from './Pages/Main/Main'
 import Navbar from './layouts/Navbar/Navbar'
 import Footer from './layouts/Footer/Footer'
+import Uy from './Pages/Uy/Uy'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -16,6 +17,7 @@ function App() {
       <Routes>
         <Route path='/' element={<Main />} />
         <Route path='/honadon' element={<Honadon />} />
+        <Route path='/uy' element={<Uy />} />
       </Routes>
       <Footer />
     </div>
