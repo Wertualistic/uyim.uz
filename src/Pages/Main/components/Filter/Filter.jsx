@@ -11,24 +11,24 @@ const Filter = () => {
         <input type="text" className="form-control" placeholder="Maydongacha" />
       </form>
       <nav aria-label="Page navigation example">
-        <ul class="pagination">
-          <li class="page-item">
-            <a class="page-link" href="#">
+        <ul className="pagination">
+          <li className="page-item">
+            <a className="page-link" href="#">
               Barcha xonalar
             </a>
           </li>
-          <li class="page-item">
-            <a class="page-link" href="#">
+          <li className="page-item">
+            <a className="page-link" href="#">
               1
             </a>
           </li>
-          <li class="page-item">
-            <a class="page-link" href="#">
+          <li className="page-item">
+            <a className="page-link" href="#">
               2
             </a>
           </li>
-          <li class="page-item">
-            <a class="page-link" href="#">
+          <li className="page-item">
+            <a className="page-link" href="#">
               3
             </a>
           </li>

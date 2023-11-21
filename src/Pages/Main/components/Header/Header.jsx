@@ -1,6 +1,6 @@
-import React from 'react';
-import './Header.css';
-import { uylar } from '../../../../assets';
+import React from "react";
+import "./Header.css";
+import { uylar } from "../../../../assets";
 
 const Header = () => {
   return (
@@ -8,6 +8,6 @@ const Header = () => {
       <img src={uylar} alt="" />
     </div>
   );
-}
+};
 
-export default Header
+export default Header;
