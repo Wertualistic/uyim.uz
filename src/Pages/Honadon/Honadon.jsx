@@ -1,23 +1,15 @@
-import React from 'react'
-import "../Honadon/Honadon.css"
+import React from 'react';
+import "../Honadon/Honadon.css";
+import homeimg from "../../assets";
+import vector from "../../assets/index";
 
 function Honadon() {
   return (
       <div className='honadon--container'>
-      <div className='honadon--header'>
-
-      {/*} <div className='container'>
-            <ul>
-               <li>Bosh sahifa</li>
-               <li>Biz haqimizda</li>
-               <li>Biz bilan bog’laning</li>
-               <li>+998 90 000-00-00</li>
-            </ul>
-        </div>*/}
-
+      <div className='honadon'>
            <div className='honadon--main'>
                 <div className='honadon--box1'>
-                   <img src={Home}/>
+                   <img src={homeimg}/>
                 </div>
                 <div className='honadon--box2'>
                     <div className='box--section1'>
@@ -44,8 +36,9 @@ function Honadon() {
            </div>
 
            <div className='honadon--bottom'>
+              <img src={vector}/>
               <button>
-              <img src={Vector}/>
+             
               Ortga qaytish</button>
            </div>
        </div>
