@@ -1,5 +1,5 @@
 .yellow_block {
-    width: 541px;
+    width: 541px !important;
     height: 305px;
     background-color: #0766AD;
     display: flex;

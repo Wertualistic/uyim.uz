@@ -4,7 +4,7 @@ import { uylar } from "../../../../assets";
 
 const Header = () => {
   return (
-    <div className="header container">
+    <div className="main_header container">
       <img src={uylar} alt="" />
     </div>
   );

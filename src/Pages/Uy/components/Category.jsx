@@ -1,5 +1,6 @@
 import React from "react";
 import room from "../../../assets/room.png";
+import { Link } from "react-router-dom";
 
 function Category() {
   return (
@@ -15,7 +16,9 @@ function Category() {
         </tr>
         <tr>
           <td>
-            <img src={room} alt="" />
+            <Link to="/honadon">
+              <img src={room} alt="" />
+            </Link>
             #119
           </td>
           <td>2 xona</td>
@@ -26,8 +29,10 @@ function Category() {
         </tr>
       </table>
       <div class="d-grid gap-2 ">
-      <button type="button" class="btn btn-primary btn-lg">Yana yuklash</button>
-</div>
+        <button type="button" class="btn btn-primary btn-lg">
+          Yana yuklash
+        </button>
+      </div>
     </div>
   );
 }
