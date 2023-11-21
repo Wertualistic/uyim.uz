@@ -1,0 +1,110 @@
+.yellow_block {
+  width: 541px;
+  height: 305px;
+  background-color: #0766AD;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+.yellow_img {
+  width: 541px;
+  height: 305px;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* filter start */
+
+.filter_all {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.filter_all div {
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+}
+.pagination_filter {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 20px;
+}
+.filter_all input {
+  height: 40px;
+  border-radius: 8px;
+  outline: none;
+  border: none;
+  border: 1px solid rgb(94, 93, 93);
+  padding-left: 10px;
+}
+
+/* category start */
+.category_all table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+
+  .category_all th, .category_all td {
+    text-align: center;
+    padding: 8px; 
+  }
+
+  .category_all img {
+    display: block;
+    margin: 0 auto; 
+  }
+  .category_all{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  @media screen and (max-width:1100px) {
+    .header{
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+  }
+  @media screen and (max-width:768px) {
+    .pagination_filter{
+        justify-content: center;
+        width: 90vw;
+    }
+    .yellow_block{
+        width: 90vw;
+        height: 200px;
+    }
+    .yellow_img{
+        width: 90vw;
+        height: 200px;
+    }
+    .filter_all div {
+flex-direction: column;
+width: 90%;
+    }
+    .filter_all{
+        justify-content: center;
+        align-items: center;
+    }
+    
+  }
+  @media (max-width: 550px) {
+    /* Hide second th and td when screen width is 600px or less */
+    .category_all th:nth-child(5),
+    .category_all td:nth-child(5),
+    .category_all th:nth-child(4),
+    .category_all td:nth-child(4),
+    .pagination_filter .pagination li:nth-child(5),
+    .pagination_filter .pagination li:nth-child(6) {
+      display: none;
+    }
+
+  }
