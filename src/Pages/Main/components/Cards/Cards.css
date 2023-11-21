@@ -1,0 +1,14 @@
+.main_cards{
+    padding: 0 10px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center ;
+    justify-content: start;
+    gap: 30px;
+}
+
+@media screen and (max-width: 768px) {
+    .main_cards {
+        justify-content: center;
+    }
+}

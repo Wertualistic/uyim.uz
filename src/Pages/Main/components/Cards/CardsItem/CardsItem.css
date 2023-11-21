@@ -1,0 +1,10 @@
+.main_cards_item{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+.main_cards_item .texts{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}

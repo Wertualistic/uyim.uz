@@ -1,7 +1,5 @@
 import React from 'react';
 import "../Honadon/Honadon.css";
-import homeimg from "../../assets";
-import vector from "../../assets/index";
 
 function Honadon() {
   return (
